@@ -68,7 +68,7 @@ function Navbar() {
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#experiences">Experiences</a>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Projects</a>
                 <a href="#contact">Contact</a>
               </div>
             </div>
@@ -109,7 +109,7 @@ function Navbar() {
               <a href="#about"  onClick={() => setToggleMenu(!toggleMenu)}>About</a>
               <a href="#skills"  onClick={() => setToggleMenu(!toggleMenu)}>Skills</a>
               <a href="#experiences"  onClick={() => setToggleMenu(!toggleMenu)}>Experiences</a>
-              <a href="#portfolio"  onClick={() => setToggleMenu(!toggleMenu)}>Portfolio</a>
+              <a href="#portfolio"  onClick={() => setToggleMenu(!toggleMenu)}>Projects</a>
               <a href="#contact"  onClick={() => setToggleMenu(!toggleMenu)}>Contact</a>
             </div>
           </div>
