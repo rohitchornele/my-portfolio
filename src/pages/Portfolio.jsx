@@ -37,7 +37,7 @@ const projectData = [
   },
   {
     id: 5,
-    text: "Mongo DB",
+    text: "Travel-Blog Website",
     image:
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603895/safaring-monk_izyycf.png",
     detail: "https://safaring-monk.onrender.com/",
