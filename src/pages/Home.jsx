@@ -39,7 +39,7 @@ function Home() {
             <div className="img-content lg:mt-10 flex justify-center">
               <img
                 className="lg:w-[82%] w-[80%] pt-10"
-                src="https://www.pikpng.com/pngl/b/546-5463601_to-avoid-4-killer-mistakes-ask-the-right.png"
+                src="https://res.cloudinary.com/dhc6husi2/image/upload/v1717570448/portrait_e3q8qk.png"
                 alt=""
               />
             </div>
