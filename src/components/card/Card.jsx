@@ -47,9 +47,9 @@ function Card( { data } ) {
               </div>
               <div className=" w-[100%] px-6">
                 <h4 className="text-md text-white text-center">{item.text}</h4>
-                {item.detail && <div className=" text-sm text-white py-1 mt-2 flex justify-between items-center "> 
-                  <a href={item.git} target="_blank" className="bg-blue-700 rounded-lg py-1 px-2 flex items-center gap-1">Github <MdOpenInNew /></a>
-                  <a href={item.detail} target="_blank" className="bg-blue-700 rounded-lg py-1 px-2 flex items-center gap-1">Preview <MdOpenInNew /></a>
+                {item.detail && <div className=" text-sm text-[#121213] py-1 mt-2 flex justify-between items-center "> 
+                  <a href={item.git} target="_blank" className="bg-[#fdc76b] rounded-lg py-1 px-2 flex items-center gap-1 font-semibold">Github <MdOpenInNew /></a>
+                  <a href={item.detail} target="_blank" className="bg-[#fdc76b] rounded-lg py-1 px-2 flex items-center gap-1 font-semibold">Preview <MdOpenInNew /></a>
                 </div>}
               </div>
             </div>
