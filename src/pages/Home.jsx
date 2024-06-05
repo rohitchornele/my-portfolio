@@ -21,7 +21,7 @@ function Home() {
               <h1 className="text-white text-3xl py-1 my-1 flex lg:block flex-col justify-center gap-3">
                 {" "}
                 I'M{" "}
-                <span className="text-[#fdc76b] font-bold lg:text-8xl text-6xl px-5">
+                <span className="text-[#fdc76b] font-bold lg:text-8xl text-6xl px-5 animate-slidein300 ">
                   {" "} {" "}{" "}
                   Rohit Chornele
                 </span>{" "}
@@ -33,6 +33,11 @@ function Home() {
               <a href="https://www.linkedin.com/in/rohit-chornele/" target="_blank">
               <button className=" border-4 border-[#fdc76b] py-2 px-4 my-4 rounded-md text-[#fdc76b]">
                 Contact Me
+              </button>
+              </a>
+              <a href="https://drive.google.com/file/d/1_YovEIDb1zreRiR_NgaaDRPdXKi6LqtR/view?usp=drive_link" target="_blank" className="ml-4">
+              <button className=" border-4 border-[#fdc76b] py-2 px-4 my-4 rounded-md text-[#fdc76b]">
+                Download Resume
               </button>
               </a>
             </div>

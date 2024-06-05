@@ -75,7 +75,7 @@ function Navbar() {
 
             <div className="hidden lg:block">
               <button className="bg-blue-800 rounded-md px-4 py-2 text-white">
-                Hire Me
+               <a href="https://www.linkedin.com/in/rohit-chornele/" target="_blank"> Hire Me</a>
               </button>
             </div>
 
