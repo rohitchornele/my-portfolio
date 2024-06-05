@@ -1,35 +1,19 @@
 let timelineElements = [
     {
         id: 1,
-        title: "Frontend Developer",
+        title: "Full Stack Developer",
         company: "Tata Consultancy Services",
         location: "Nagpur",
-        date: "Jan 2022 - May 2024",
-        description: "Responsible for developing and delivering products on time"
+        date: "Jan 2022 -",
+        description: "Responsible for developing and delivering products on given time"
     },
     {
         id: 2,
-        title: "Backend Developer",
-        company: "Tata Consultancy Services",
-        location: "Nagpur",
-        date: "Jan 2022 - May 2024",
-        description: "Responsible for developing and delivering products on time"
-    },
-    {
-        id: 3,
-        title: "System Developer",
-        company: "Tata Consultancy Services",
-        location: "Nagpur",
-        date: "Jan 2022 - May 2024",
-        description: "Responsible for developing and delivering products on time"
-    },
-    {
-        id: 4,
-        title: "Machine Developer",
-        company: "Tata Consultancy Services",
-        location: "Nagpur",
-        date: "Jan 2022 - May 2024",
-        description: "Responsible for developing and delivering products on time"
+        title: "Android Developer Intern",
+        company: "Maxgen Technologies",
+        location: "Pune",
+        date: "Jan 2020 - Jun 2021",
+        description: "Responsible for developing backend logics for android apps"
     },
 ]
 

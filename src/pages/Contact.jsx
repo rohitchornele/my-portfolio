@@ -50,9 +50,9 @@ function Contact() {
             <a href="https://www.linkedin.com/in/rohit-chornele/" target="_blank">
               <FaLinkedin className="text-4xl cursor-pointer" />
             </a>
-            <a href="https://x.com/RohitChornele" target="_blank">
+            {/* <a href="https://x.com/RohitChornele" target="_blank">
               <FaTwitter className="text-4xl cursor-pointer"/>
-            </a>
+            </a> */}
           </div>
           <div className="hidden lg:block  h-1 w-[37%] bg-[#fdc76b]"></div>
         </div>

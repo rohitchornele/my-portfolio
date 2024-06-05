@@ -9,7 +9,7 @@ function Experiences() {
     <>
       <div className="bg-[#34353a] w-full py-10" id="experiences">
         <div className="lg:px-28 px-10 shadow-lg shadow-gray-800/80 lg:py-10 ">
-          <h1 className="text-5xl lg:text-6xl text-white font-bold p-1 text-center">Experiences</h1>
+          <h1 className="text-5xl lg:text-6xl text-white font-bold p-1 text-center">Work Experiences</h1>
           <div className="flex text-white gap-5 p-5 justify-center">
             <VerticalTimeline className="">
               {timelineElements.map((element) => {
@@ -36,13 +36,13 @@ function Experiences() {
                         <div className="hidden"></div>
                         )}
                       <div className="bg-green-500 rounded-full h-5 w-5 absolute -left-9 mt-2"></div>
-                      <h3 className="vertical-timeline-element-title text-4xl font-semibold ">
+                      <h3 className="vertical-timeline-element-title text-4xl font-semibold text-[#fdc76b]">
                         {element.title}
                       </h3>
-                      <h5 className="verticle-timeline-element-subtitle text-2xl text-lime-300">
-                        {element.location}
+                      <h5 className="verticle-timeline-element-subtitle text-2xl text-white">
+                        {element.company},  {element.location}
                       </h5>
-                      <p id="description" className="text-lg">
+                      <p id="description" className="text-lg text-[#fdc76b]">
                         {element.description}
                       </p>
                     </div>

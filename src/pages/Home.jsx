@@ -61,9 +61,9 @@ function Home() {
             <a href="https://www.linkedin.com/in/rohit-chornele/" target="_blank">
               <FaLinkedin className="text-3xl cursor-pointer" />
             </a>
-            <a href="https://x.com/RohitChornele" target="_blank">
+            {/* <a href="https://x.com/RohitChornele" target="_blank">
               <FaTwitter className="text-3xl cursor-pointer"/>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

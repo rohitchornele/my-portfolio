@@ -4,33 +4,57 @@ import Card from "../components/card/Card";
 const skillsData = [
   {
     id: 1,
-    text: "Javascript",
+    text: "HTML",
     image:
-      "https://e7.pngegg.com/pngimages/602/440/png-clipart-javascript-open-logo-number-js-angle-text.png",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603268/html_izpmar.png",
   },
   {
     id: 2,
-    text: "React",
+    text: "CSS",
     image:
-      "https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603267/css_ninvbp.png",
   },
   {
     id: 3,
-    text: "Python",
+    text: "Tailwind CSS",
     image:
-      "https://w7.pngwing.com/pngs/234/329/png-transparent-python-logo-thumbnail.png",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603269/tailwind_pb1c4y.png",
   },
   {
     id: 4,
-    text: "Node JS",
+    text: "Javascript",
     image:
-      "https://w7.pngwing.com/pngs/450/470/png-transparent-node-js-angularjs-react-javascript-npm-node-js-angle-text-trademark-thumbnail.png",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602809/javascript_jtk1ye.png",
   },
   {
     id: 5,
+    text: "React",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602914/react_qvmqsd.png",
+  },
+  {
+    id: 6,
+    text: "Express",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602264/exoress_uspblw.png",
+  },
+  {
+    id: 7,
+    text: "Node JS",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602867/node_js_ubg5dk.png",
+  },
+  {
+    id: 8,
     text: "Mongo DB",
     image:
-      "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602996/mongodb_ycwjxc.png",
+  },
+  {
+    id: 8,
+    text: "Github",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603555/github_rkfq7b.png",
   }
 ];
 

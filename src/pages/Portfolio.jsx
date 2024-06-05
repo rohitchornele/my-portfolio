@@ -20,28 +20,28 @@ const projectData = [
   },
   {
     id: 3,
-    text: "Python",
+    text: "Zomato-Frontend",
     image:
-      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717435749/realEstatesnap_nhlnca.png",
-    detail: "This project is based on MERN Stack",
-    git: "",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603726/zomato-frontend_vwiqtc.png",
+      detail: "https://luminous-mermaid-11c47d.netlify.app/",
+    git: "https://github.com/rohitchornele/zomato-clone.git",
   },
   {
     id: 4,
-    text: "Node JS",
+    text: "Dentytech (Dribble)",
     image:
-      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717435749/realEstatesnap_nhlnca.png",
-    detail: "This project is based on MERN Stack",
-    git: "",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603890/dentytech_x2gwlf.png",
+    detail: "https://dentytech-dribble.netlify.app/",
+    git: "https://github.com/rohitchornele/dentytech.git",
 
   },
   {
     id: 5,
     text: "Mongo DB",
     image:
-      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717435749/realEstatesnap_nhlnca.png",
-    detail: "This project is based on MERN Stack",
-    git: "",
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603895/safaring-monk_izyycf.png",
+    detail: "https://safaring-monk.onrender.com/",
+    git: "	https://github.com/rohitchornele/safaring_monk.git",
   },
 ];
 
@@ -59,10 +59,6 @@ function Portfolio() {
           <div className="flex flex-row gap-6 flex-wrap justify-center items-center p-5 ">
             <Card data={projectData} />
           </div>
-
-          <button className="bg-[#fdc76b] rounded-md py-2 px-4 mt-6">
-            View More
-          </button>
         </div>
       </div>
     </>
