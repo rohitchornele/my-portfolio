@@ -10,7 +10,7 @@ function Experiences() {
       <div className="bg-[#34353a] w-full py-10" id="experiences">
         <div className="lg:px-28 px-10 shadow-lg shadow-gray-800/80 lg:py-10 ">
           <h1 className="text-5xl lg:text-6xl text-white font-bold p-1 text-center">Work Experiences</h1>
-          <div className="flex text-white gap-5 p-5 justify-center">
+          <div className="flex text-white gap-5 p-5 justify-center text-justify">
             <VerticalTimeline className="">
               {timelineElements.map((element) => {
 

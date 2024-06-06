@@ -16,7 +16,7 @@ function About() {
         <h1 className='text-5xl lg:text-6xl text-white font-bold p-1 text-center'>About</h1>
         <div className="flex text-white gap-5 lg:p-5 p-2">
             <div className="hidden lg:block left w-[20%] border-t-4 mt-2 border-[#fdc76b]"></div>
-            <div className="right flex justify-center items-center text-xl leading-9 tracking-wide">
+            <div className="right flex justify-center items-center text-xl leading-9 tracking-wide text-justify">
               {aboutText.map((data) => <p>{data.summary}</p>)}
               </div>
         </div>

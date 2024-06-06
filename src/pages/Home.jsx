@@ -27,7 +27,7 @@ function Home() {
                 </span>{" "}
               </h1>
               </div>
-              <h5 className="text-white text-3xl py-1 my-1">
+              <h5 className="text-white text-4xl py-1 my-1">
                 Full Stack Developer
               </h5>
               <a href="https://www.linkedin.com/in/rohit-chornele/" target="_blank">
