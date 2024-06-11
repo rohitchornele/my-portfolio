@@ -53,7 +53,7 @@ function About() {
           <h1 className="text-5xl lg:text-6xl text-white font-bold p-1 text-center">
             About
           </h1>
-          <div className="flex flex-col-reverse lg:flex-row text-white lg:p-5 p-1 items-center justify-center w-full">
+          <div className="flex flex-col-reverse lg:flex-row text-white lg:p-5 p-1 items-start justify-center w-full">
             {/* <div className="hidden lg:block left w-[20%] border-t-4 mt-2 border-[#fdc76b]"></div> */}
 
             <div className="lg:w-[50%] lg:py-6 mt-16 lg:mt-0">
