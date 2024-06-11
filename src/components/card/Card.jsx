@@ -39,17 +39,17 @@ function Card( { data } ) {
   return (
     <>
       {data.map((item) => (
-        <div className="p-2 hover:scale-[102%] transform transition duration-300" key={item.id}>
+        <div className="p-2 hover:scale-[102%] duration-300 ease-in-out" key={item.id}>
           <div className="card-div bg-[#48494f] rounded-lg hover:bg-[#48495f]">
-            <div className="w-60 h-64 flex flex-col justify-around items-center">
+            <div className="lg:w-60 lg:h-64 w-32 min-h-48 flex flex-col justify-evenly items-center">
               <div>
-                <img className="h-32 rounded-lg px-4 object-cover" src={item.image} alt="" />
+                <img className="lg:h-32 h-24 rounded-lg px-4 object-contain" src={item.image} alt="" />
               </div>
               <div className=" w-[100%] px-6">
                 <h4 className="text-md text-white text-center">{item.text}</h4>
-                {item.detail && <div className=" text-sm text-[#121213] py-1 mt-2 flex justify-between items-center "> 
+                {item.detail && <div className=" text-sm text-[#121213] py-1 mt-2 flex flex-col lg:flex-row justify-between items-center pb-3"> 
                   <a href={item.git} target="_blank" className="bg-[#fdc76b] rounded-lg py-1 px-2 flex items-center gap-1 font-semibold">Github <MdOpenInNew /></a>
-                  <a href={item.detail} target="_blank" className="bg-[#fdc76b] rounded-lg py-1 px-2 flex items-center gap-1 font-semibold">Preview <MdOpenInNew /></a>
+                  <a href={item.detail} target="_blank" className="bg-[#fdc76b] rounded-lg py-1 px-2 flex items-center gap-1 font-semibold mt-2 lg:mt-0">Preview <MdOpenInNew /></a>
                 </div>}
               </div>
             </div>

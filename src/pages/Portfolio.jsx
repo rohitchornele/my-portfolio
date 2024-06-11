@@ -52,8 +52,8 @@ function Portfolio() {
         className="skills-container bg-[#34353a] w-full pb-10"
         id="portfolio"
       >
-        <div className="w-full p-5 text-center shadow-lg shadow-gray-800/80  lg:px-24 px-10 lg:pb-20 py-10">
-          <h1 className="text-5xl lg:text-6xl text-white font-bold p-1">
+        <div className="w-full lg:p-5 text-center shadow-lg shadow-gray-800/80 lg:px-24 px-5 lg:pb-20 pb-10">
+          <h1 className="text-5xl lg:text-6xl text-white font-bold pb-5">
             Projects
           </h1>
           <div className="flex flex-row gap-6 flex-wrap justify-center items-center p-5 ">

@@ -34,15 +34,15 @@ const skillsData = [
   },
   {
     id: 6,
-    text: "Express",
-    image:
-      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602264/exoress_uspblw.png",
-  },
-  {
-    id: 7,
     text: "Node JS",
     image:
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602867/node_js_ubg5dk.png",
+  },
+  {
+    id: 7,
+    text: "Express",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602264/exoress_uspblw.png",
   },
   {
     id: 8,
@@ -61,10 +61,10 @@ const skillsData = [
 function Skills() {
   return (
     <>
-      <div className="skills-container bg-[#34353a] w-full  py-10" id="skills">
-        <div className="w-full  shadow-lg shadow-gray-800/50 lg:px-24 px-10 lg:py-20">
-          <h1 className="text-5xl lg:text-6xl text-white font-bold p-1 text-center">My Skills</h1>
-          <div className="flex flex-row gap-6 flex-wrap justify-center items-center p-5">
+      <div className="skills-container bg-[#34353a] w-full py-10" id="skills">
+        <div className="w-full shadow-lg shadow-gray-800/50 lg:px-24 px-10 lg:py-10 pb-10">
+          <h1 className="text-5xl lg:text-6xl text-white font-bold p-1 text-center pb-10">My Skills</h1>
+          <div className="flex gap-6 justify-center items-center lg:p-5 w-[100%] flex-wrap">
             <Card data={skillsData} />
           </div>
         </div>

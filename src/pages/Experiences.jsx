@@ -26,7 +26,7 @@ function Experiences() {
                   >
                     <div className="relative">
                       {timelineElements.indexOf(element) <= timelineElements.indexOf(lastElement) ? (
-                          <div className=" bg-white w-1 h-[130%] md:h-[150%] lg:h-[170%]  absolute -left-7 mt-3">
+                          <div className=" bg-white w-1 h-[130%] md:h-[160%] lg:h-[170%]  absolute -left-7 mt-3">
                                     {
                                 console.log(timelineElements.indexOf(element), timelineElements.indexOf(lastElement) )
                             }
