@@ -35,7 +35,7 @@ function Home() {
                 Contact Me
               </button>
               </a>
-              <a href="https://drive.google.com/file/d/1_YovEIDb1zreRiR_NgaaDRPdXKi6LqtR/view?usp=drive_link" target="_blank" className="ml-4">
+              <a href="https://drive.google.com/file/d/1hYPORe4EDZ3-rIe7NnUzYVVlsPkKwboL/view?usp=sharing" target="_blank" className="ml-4">
               <button className=" border-4 border-[#fdc76b] py-2 px-4 my-4 rounded-md text-[#fdc76b]">
                 Download Resume
               </button>
