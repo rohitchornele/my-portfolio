@@ -4,7 +4,7 @@ let timelineElements = [
         title: "Full Stack Developer",
         company: "Tata Consultancy Services",
         location: "Nagpur",
-        date: "Jan 2022 -",
+        date: "Jan 2022 - May 2024",
         description: "Responsible for developing and delivering products on given time"
     },
     {

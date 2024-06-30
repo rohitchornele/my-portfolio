@@ -1,5 +1,6 @@
 import React from "react";
 import { PiLineVerticalLight } from "react-icons/pi";
+import './css/home.css'
 import {
   FaFacebook,
   FaGithub,
@@ -7,7 +8,6 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -41,9 +41,9 @@ function Home() {
               </button>
               </a>
             </div>
-            <div className="img-content lg:mt-10 flex justify-center">
+            <div className="img-content lg:mt-10 flex justify-center overflow-hidden">
               <img
-                className="lg:w-[82%] w-[80%] pt-10"
+                className="lg:w-[82%] w-[80%] pt-10  slideInUp"
                 src="https://res.cloudinary.com/dhc6husi2/image/upload/v1717570448/portrait_e3q8qk.png"
                 alt=""
               />

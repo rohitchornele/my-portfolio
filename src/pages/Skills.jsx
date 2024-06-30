@@ -33,6 +33,12 @@ const skillsData = [
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602914/react_qvmqsd.png",
   },
   {
+    id: 10,
+    text: "Redux",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1719729755/rzcz5lhlaskvt08dyhcl.png",
+  },
+  {
     id: 6,
     text: "Node JS",
     image:
@@ -51,7 +57,25 @@ const skillsData = [
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602996/mongodb_ycwjxc.png",
   },
   {
-    id: 8,
+    id: 13,
+    text: "SQL",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1719730912/zdvlhplxxhqumkf8ey0p.png",
+  },
+  {
+    id: 11,
+    text: "Bootstrap",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1719730912/lmmdkweb6dq1ddursmb3.png",
+  },
+  {
+    id: 12,
+    text: "Jquery",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1719730046/upspyncsjs9whdl9rdo6.png",
+  },
+  {
+    id: 9,
     text: "Github",
     image:
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717603555/github_rkfq7b.png",
