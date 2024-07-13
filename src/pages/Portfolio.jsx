@@ -4,6 +4,14 @@ import Card from "../components/card/Card";
 const projectData = [
   {
     id: 1,
+    text: "Realtime Chat App",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1720842718/gjhpixuxh7u33xlloxrk.png",
+    detail: "https://chatapps-4zbc.onrender.com/chats",
+    git: "https://github.com/rohitchornele/chatapps/",
+  },
+  {
+    id: 6,
     text: "Real Estate Frontend",
     image:
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717435749/realEstatesnap_nhlnca.png",
