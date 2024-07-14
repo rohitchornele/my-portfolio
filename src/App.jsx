@@ -19,8 +19,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Skills />
       <Experiences />
+      <Skills />
       <Portfolio />
       <Contact />
       <Footer/>
