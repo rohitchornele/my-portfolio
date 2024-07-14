@@ -26,6 +26,13 @@ const skillsData = [
     image:
       "https://res.cloudinary.com/dhc6husi2/image/upload/v1717602809/javascript_jtk1ye.png",
   },
+  
+  {
+    id: 14,
+    text: "Typescript",
+    image:
+      "https://res.cloudinary.com/dhc6husi2/image/upload/v1720962839/i4mzfb2xrljyw5sbglh6.png",
+  },
   {
     id: 5,
     text: "React",
